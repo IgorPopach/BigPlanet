@@ -1,0 +1,31 @@
+.show-table {
+    .ReactVirtualized__Table__headerRow, .ReactVirtualized__Grid, .ReactVirtualized__Table__Grid, .ReactVirtualized__Grid__innerScrollContainer, .ReactVirtualized__Table__row {
+        min-width: 100%!important;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .show-table {
+        display: none;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .show-table {
+        .ReactVirtualized__Table__headerRow, .ReactVirtualized__Grid, .ReactVirtualized__Table__Grid, .ReactVirtualized__Grid__innerScrollContainer, .ReactVirtualized__Table__row {
+            min-width: 500px!important;
+        }
+    }
+}
+
+.headerRow,
+.evenRow,
+.oddRow {
+  border-bottom: 1px solid #e0e0e0;
+}
+.oddRow {
+  background-color: #fafafa;
+}

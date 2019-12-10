@@ -1,0 +1,14 @@
+.region {
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.active-region {
+    text-decoration: underline;
+    text-decoration-color: red;
+    &:hover {
+        text-decoration: underline;
+        text-decoration-color: red;
+    }
+}

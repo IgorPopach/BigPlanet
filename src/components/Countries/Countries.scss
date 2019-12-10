@@ -1,0 +1,37 @@
+.countries {
+    margin: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    &:hover {
+        cursor: pointer;
+        background-color: rgba(77, 77, 77, 0.377);
+    }
+}
+
+.sidebar-heading {
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h6 {
+        color: grey;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    input {
+        width: 95%;
+        display: flex;
+        justify-content: center;
+    }
+}
+.ReactVirtualized__Grid.ReactVirtualized__List {
+    width: 100%!important;
+    &:focus {
+        outline-color: transparent;
+    }
+}
+.ReactVirtualized__Grid__innerScrollContainer {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

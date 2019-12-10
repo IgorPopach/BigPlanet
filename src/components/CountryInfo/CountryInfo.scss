@@ -1,0 +1,19 @@
+.country-info {
+    img {
+        max-width: 500px;
+        height: auto;
+        margin: 10px 5px;
+        border: 1px solid grey;
+        border-radius: 3px;
+    }
+
+    @media (max-width: 900px) {
+        img {
+            max-width: 200px;
+        }
+    }
+
+    p>span {
+        font-weight: bold;
+    }
+}
